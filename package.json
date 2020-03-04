@@ -4,8 +4,9 @@
   "description": "TP solutions for Java TIC 303 TP",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "build": "npx docco -o html ../TP Solutions/../*.java"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx docco -o build ../'TP Solutions'/**/**/*.java",
+    "publish": "git add . && git commit -m 'Update doc' && git push origin master"
   },
   "repository": {
     "type": "git",
