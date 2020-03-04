@@ -1,0 +1,23 @@
+{
+  "name": "java-tic303-tp-solutions",
+  "version": "0.0.1",
+  "description": "TP solutions for Java TIC 303 TP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx docco -o html ../TP Solutions/../*.java"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kagawish/java-tic303-tp-solutions.git"
+  },
+  "author": "Karim Gawish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kagawish/java-tic303-tp-solutions/issues"
+  },
+  "homepage": "https://github.com/kagawish/java-tic303-tp-solutions#readme",
+  "dependencies": {
+    "docco": "^0.8.0"
+  }
+}
